@@ -1,0 +1,30 @@
+/* FileUpload.module.scss */
+
+.dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .dropzone:hover{
+    border: 2px dashed #999;
+    background: #eee;
+  }
+
+  .dropzone p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  

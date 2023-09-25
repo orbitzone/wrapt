@@ -8,11 +8,13 @@
 // 'src/pages/Admin/BooksPage/BooksPage.js' -> AdminBooksPage
 
 import { Router, Route } from '@redwoodjs/router'
+import FileUpload from 'src/components/FileUpload';
 
 const Routes = () => {
   return (
     <Router>
       <Route notfound page={NotFoundPage} />
+      <Route path="/file-upload" page={FileUpload} name="fileUpload" />
     </Router>
   )
 }
